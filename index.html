@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galina's Guess The Word Game!</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+<body>
+    <div class="container">
+      <div class="jumbotron">
+        <img src="assets/images/game.jpg" alt="Game Time!">
+        <h1>Guess The Word Game!</h1>
+        <p>Use only a-z letters.  Here we go...</p>
+      </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title">Word to Guess</h2>
+        </div>
+        
+        <div class="panel-body">
+          <h1 id="wordToGuess"></h1>
+        </div>  
+      </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <p>Wrong Guesses: <span id="wrongGuesses"></span></p>
+          <p>Guesses left: <span id="numGuesses"></span></p>
+          <p>Wins: <span id="winCounter"></span></p>
+          <p>Losses: <span id="lossCounter"></span></p>
+          
+        </div> 
+      </div>
+      
+  </div>
+  <script src="assets/javascript/game.js"></script>
+</body>
+</html>
+ 
